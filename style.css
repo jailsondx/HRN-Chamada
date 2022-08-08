@@ -1,19 +1,62 @@
+
+#fundo{
+    background-color: whitesmoke;
+}
+
+
+#fundo2{
+    background-color: #0be881;
+}
 .cabecalho{
-    background-color: aquamarine;
+    background-color: whitesmoke;
     height: 10vh;
     align-items: center;
-   
+}
+.cabecalho2{
+    background-color: whitesmoke;
+    height: 10vh;
+    align-items: center;
+}
+
+.rodape{
+    background-color: whitesmoke;
+    height: 5vh;
+    align-items: center;
 }
 
 .conteudo{
-    background-color: brown;
-    height: 90vh;
+    height: 85vh;
+    align-items: center;
+    text-align: center;
+}
+.chamada{
+    height: 85vh;
     align-items: center;
     text-align: center;
 }
 
-.infor{
-    background-color:bisque;
+.titulo{
+    margin-bottom: 30px;
+    font-size: 3vw;
+    position: relative;
+}
+.titulo::after{
+    content: "";
+    position: absolute;
+
+    background-color: aquamarine;
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+
+    opacity: 0;
+    transition: opacity 300ms, tranform 300ms;
+}
+.titulo:is(:hover, :focus)::after{
+    opacity: 1;
+    transform: translateY(2px);
 }
 
 .paciente{
@@ -26,6 +69,13 @@
     font-size: 50px;
 }
 
-.input_paciente{
 
+#btnSpeak{
+    transition: transform 300ms, background-color 300ms;
+}
+#btnSpeak:hover{
+    transform: scale(1.05);
+}
+#btnSpeak:active{
+    transform: scale(0.90);
 }
