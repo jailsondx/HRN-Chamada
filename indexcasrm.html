@@ -20,7 +20,7 @@
 
         <div class="container">
             <div class="row cabecalho">
-                <div class = "d-flex justify-content-left"><img src=".\img\Logo_HRN.png" width="100vh"></div>
+                <div class = "d-flex justify-content-center"><img src=".\img\Logo_HRN.png" width="700vh"></div>
             </div>
             <div class="row conteudo">
                 
@@ -28,18 +28,22 @@
                     
                     <form name="Form_Chamada" id="Form_Chamada" method="post" action="paciente.php" target="paciente.php">
                     <div class="titulo">Sistema de Chamada de Pacientes<br></div>
-                    <div class="d-flex justify-content-start">Nome:<br></div>
-                    <input id='txtInput' name="Nome_Paciente" placeholder="Insira o Nome do Paciente" size="80" required> <br><br>
-                    <input type="radio" name="Consultorio" id='C01' value="Consultório 1" checked>Consultorio 01 &nbsp
-                    <input type="radio" name="Consultorio" id='C02' value="Consultório 2">Consultorio 02 &nbsp
-                    <input type="radio" name="Consultorio" id='C03' value="Consultório 3">Consultorio 03 &nbsp
-                    <input type="radio" name="Consultorio" id='C04' value="Consultório 4">Consultorio 04 &nbsp
-                    <input type="radio" name="Consultorio" id='C05' value="Consultório 5">Consultorio 05 &nbsp
-                    <input type="radio" name="Consultorio" id='C06' value="Consultório 6">Consultorio 06 &nbsp
-                    <input type="radio" name="Consultorio" id='C07' value="Consultório 7">Consultorio 07 &nbsp
+
+                    <div class="d-flex justify-content-center">Nome Paciente:<br></div>
+                    <input id='txtInput' name="Nome_Paciente" placeholder="Insira o Nome do Paciente" size="80" required> 
+                    
+                    <br><br><br>
+
+                    <input type="radio" name="Consultorio" id='C01' value="Consultório 1" checked> Consultorio 01 &nbsp
+                    <input type="radio" name="Consultorio" id='C02' value="Consultório 2"> Consultorio 02 &nbsp
+                    <input type="radio" name="Consultorio" id='C03' value="Consultório 3"> Consultorio 03 &nbsp
+                    <input type="radio" name="Consultorio" id='C04' value="Consultório 4"> Consultorio 04 &nbsp
+                    <input type="radio" name="Consultorio" id='C05' value="Consultório 5"> Consultorio 05 &nbsp
+                    <input type="radio" name="Consultorio" id='C06' value="Consultório 6"> Consultorio 06 &nbsp
+                    <input type="radio" name="Consultorio" id='C07' value="Consultório 7"> Consultorio 07 &nbsp
                     <br>
-                    <input type="radio" name="Consultorio" id='CP01' value="Consultório Pediátrico 1">Consultorio Pediátrico 01 &nbsp
-                    <input type="radio" name="Consultorio" id='CP02' value="Consultório Pediátrico 2">Consultorio Pediátrico 02 &nbsp
+                    <input type="radio" name="Consultorio" id='CP01' value="Consultório Pediátrico 1"> Consultorio Pediátrico 01 &nbsp
+                    <input type="radio" name="Consultorio" id='CP02' value="Consultório Pediátrico 2"> Consultorio Pediátrico 02 &nbsp
                     <br><br>
                     <button id='btnSpeak' class="btn btn-warning" name="btn_chamada">Chamar Paciente</button>
                     <br><br>
@@ -48,7 +52,7 @@
                 </div>
             </div>
             <div class="row rodape">
-                <div class = "d-flex justify-content-center">Copyrigth</div>
+                <div class = "d-flex justify-content-center">Copyrigth - Jailson Sousa - 2022</div>
             </div>
         </div>
 
@@ -78,7 +82,7 @@
                 if(document.getElementById("C04").checked){
                     consultorio = document.getElementById("C04").value;
                 }
-                if(document.getElementById("C04").checked){
+                if(document.getElementById("C05").checked){
                     consultorio = document.getElementById("C05").value;
                 }
                 if(document.getElementById("C06").checked){

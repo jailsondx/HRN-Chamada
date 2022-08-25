@@ -2,12 +2,12 @@
 // DEFINE O FUSO HORARIO COMO O HORARIO DE BRASILIA
 date_default_timezone_set('America/Fortaleza');
 
-function logUsuario($paciente, $consultorio){ 
+function logUsuario($paciente, $especialidade,$consultorio){ 
         //Cria o log se der erro na pasta der acesso chmod 777
         $log_diario = date("d-m-Y");
         $data = date("d-m-Y H-i-s");
         $ip = getIp(); 
-        $msg = "[".$data."]\nPaciente: " . $paciente . "\nConsultorio: " . $consultorio . "\n\n"; 
+        $msg = "[".$data."]\nIP: " . $ip . "\nPaciente: " . $paciente . "\nEspecialidade: " . $especialidade . "\nConsultorio: " . $consultorio . "\n\n"; 
         //$fp = fopen("/logs/IP_USUARIO_".$data.".txt",'a+');
         $fp = fopen("./logs/LOG_CHAMADA_".$log_diario.".txt",'a+'); 
         fwrite($fp,$msg); 

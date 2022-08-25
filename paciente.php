@@ -19,9 +19,9 @@ require 'functions.php';
 </head>
 <body id="fundo2">
 
-<div class="container">
+<div class="conteudo2">
     <div class="row cabecalho2">
-    <div class = "d-flex justify-content-left"><img src=".\img\Logo_HRN.png" width="100vh"></div>
+        <!--<div class = "d-flex justify-content-center"><img src=".\img\Logo_HRN.png" width="500vh"></div>-->
     </div>
     <div class="row chamada">
         <div class = "flex-item infor">
@@ -30,7 +30,14 @@ require 'functions.php';
                 $paciente = $_POST["Nome_Paciente"];
             }
             echo $paciente;
-            ?>
+            ?></div>
+        <br>
+        <div class="especialidade"><?php
+            if (isset($_POST["btn_chamada"])){
+                $especialidade = $_POST["Especialidade"];
+            }
+            echo $especialidade;
+            ?></div>
         <br>
         <div class="consultorio"><?php
             if (isset($_POST["btn_chamada"])){
@@ -42,14 +49,16 @@ require 'functions.php';
     </div>
     </div>
     <div class="row rodape">
-                <div class = "d-flex justify-content-center">Copyrigth</div>
+                <div class = "d-flex justify-content-center">Copyrigth - Jailson Sousa - 2022</div>
             </div>
 </div>
-<?php logUsuario($paciente, $consultorio); ?>
+<?php logUsuario($paciente, $especialidade, $consultorio); ?>
 <script>
     var paciente = '<?php echo $paciente; ?>';
+    var paciente = '<?php echo $especialidade; ?>';
     var consultorio = '<?php echo $consultorio; ?>';
     console.log('Nome do Paciente: ' + paciente);
+    console.log('Especialidade ' + consultorio);
     console.log('Consultorio Chamado: ' + consultorio);
 </script>
 

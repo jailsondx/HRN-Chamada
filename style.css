@@ -5,7 +5,8 @@
 
 
 #fundo2{
-    background-color: #0be881;
+    background-color: #00b460d3;
+    width: 99vw
 }
 .cabecalho{
     background-color: whitesmoke;
@@ -14,12 +15,10 @@
 }
 .cabecalho2{
     background-color: whitesmoke;
-    height: 10vh;
     align-items: center;
 }
 
 .rodape{
-    background-color: whitesmoke;
     height: 5vh;
     align-items: center;
 }
@@ -29,10 +28,23 @@
     align-items: center;
     text-align: center;
 }
-.chamada{
-    height: 85vh;
+
+.conteudo2{
+    height: 90vh;
     align-items: center;
     text-align: center;
+}
+
+.chamada{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    color: ;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: rgb(102, 102, 102); /* cor da borda */
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+   
 }
 
 .titulo{
@@ -61,13 +73,19 @@
 
 .paciente{
     text-transform: uppercase;
-    font-size: 100px;
+    font-size: 7vw;
+}
+
+.especialidade{
+    text-transform: uppercase;
+    font-size: 4vw;
 }
 
 .consultorio{
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 4vw;
 }
+
 
 
 #btnSpeak{
