@@ -1,0 +1,30 @@
+[26-08-2022 08-04-41]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: teste especialidade
+Consultorio: Consultório Pediátrico 2
+
+[26-08-2022 08-37-18]
+IP: 10.2.5.5
+Paciente: Jailson Antonio de Sousa
+Especialidade: Otorrinolaringologista
+Consultorio: Consultório 5
+
+[26-08-2022 08-37-40]
+IP: 10.2.5.5
+Paciente: Jailson Antonio de Sousa Rodrigues
+Especialidade: Otorrinolaringologista
+Consultorio: Consultório 5
+
+[26-08-2022 08-38-49]
+IP: 10.2.5.5
+Paciente: ADRIANA MARIA PRADO TORRES
+Especialidade: Cardiologista
+Consultorio: Consultório 5
+
+[26-08-2022 08-39-01]
+IP: 10.2.5.5
+Paciente: ADRIANA MARIA PRADO TORRES
+Especialidade: Cardiologista
+Consultorio: Consultório 5
+

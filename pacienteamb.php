@@ -17,10 +17,10 @@ require 'functions.php';
 
     <title>Chamada</title>
 </head>
-<body id="fundo2">
+<body id="fundo_chamada">
 
-<div class="conteudo2">
-    <div class="row cabecalho2">
+<div class="conteudo_chamada">
+    <div class="row cabecalho_chamada">
         <!--<div class = "d-flex justify-content-center"><img src=".\img\Logo_HRN.png" width="500vh"></div>-->
     </div>
     <div class="row chamada">
@@ -52,7 +52,7 @@ require 'functions.php';
                 <div class = "d-flex justify-content-center">Copyrigth - Jailson Sousa - 2022</div>
             </div>
 </div>
-<?php logUsuario($paciente, $especialidade, $consultorio); ?>
+<?php logUsuario2($paciente, $especialidade, $consultorio); ?>
 <script>
     var paciente = '<?php echo $paciente; ?>';
     var paciente = '<?php echo $especialidade; ?>';

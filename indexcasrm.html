@@ -26,7 +26,7 @@
                 
                 <div class = "d-flex justify-content-center">
                     
-                    <form name="Form_Chamada" id="Form_Chamada" method="post" action="paciente.php" target="paciente.php">
+                    <form name="Form_Chamada" id="Form_Chamada" method="post" action="pacientecasrm.php" target="pacientecasrm.php">
                     <div class="titulo">Sistema de Chamada de Pacientes<br></div>
 
                     <div class="d-flex justify-content-center">Nome Paciente:<br></div>
@@ -46,6 +46,7 @@
                     <input type="radio" name="Consultorio" id='CP02' value="Consultório Pediátrico 2"> Consultorio Pediátrico 02 &nbsp
                     <br><br>
                     <button id='btnSpeak' class="btn btn-warning" name="btn_chamada">Chamar Paciente</button>
+                    <button id='btnLimpar' class="btn btn-info" name="btn_limpar" onclick="document.getElementById('Form_Chamada').reset();">Limpar</button>
                     <br><br>
                     Ultimo Chamado: <div class="wrapper" id="ult_nome"></div>
                     </form>
@@ -130,10 +131,11 @@
                 // Coloca a nova string(que é o HTML) no DOM
                 //$wrapper.innerHTML = HTMLTemporario;
                 $wrapper.innerHTML = HTMLNovo;
+       
 
 
                 //LIMPAR FORMULARIO
-                document.getElementById('Form_Chamada').reset();
+                //document.getElementById('Form_Chamada').reset();
             }
             },1000);
             });

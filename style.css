@@ -4,16 +4,16 @@
 }
 
 
-#fundo2{
+#fundo_chamada{
     background-color: #00b460d3;
     width: 99vw
 }
 .cabecalho{
-    background-color: whitesmoke;
-    height: 10vh;
+    background-image: linear-gradient(to right,#008e88, #009993,#0d426a);
+    height: 4vh;
     align-items: center;
 }
-.cabecalho2{
+.cabecalho_chamada{
     background-color: whitesmoke;
     align-items: center;
 }
@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-.conteudo2{
+.conteudo_chamada{
     height: 90vh;
     align-items: center;
     text-align: center;
@@ -56,7 +56,7 @@
     content: "";
     position: absolute;
 
-    background-color: aquamarine;
+    background-color: #00b460d3;
 
     bottom: 0;
     left: 0;
@@ -86,14 +86,16 @@
     font-size: 4vw;
 }
 
-
-
-#btnSpeak{
+button{
     transition: transform 300ms, background-color 300ms;
 }
-#btnSpeak:hover{
+button:hover{
     transform: scale(1.05);
 }
-#btnSpeak:active{
+button:active{
     transform: scale(0.90);
+}
+
+.logo{
+    height: 6vh;
 }
