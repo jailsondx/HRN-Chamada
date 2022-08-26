@@ -1,5 +1,7 @@
 <?php
 require 'functions.php';
+error_reporting(0);
+ini_set(“display_errors”, 0 );
 ?>
 
 <!DOCTYPE html>
@@ -16,6 +18,7 @@ require 'functions.php';
     <!--<script type="text/javascript" src="speech.js"></script>-->
 
     <title>Chamada</title>
+    <link rel="icon" type="image/x-icon" href="img/chamada.ico">
 </head>
 <body id="fundo_chamada">
 

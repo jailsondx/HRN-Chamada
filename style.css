@@ -5,8 +5,9 @@
 
 
 #fundo_chamada{
-    background-color: #00b460d3;
-    width: 99vw
+    background-image: linear-gradient(to bottom right, #008e88,#009993,#0d426a);
+    width: 99vw;
+    height: 100vh;
 }
 .cabecalho{
     background-image: linear-gradient(to right,#008e88, #009993,#0d426a);
@@ -19,6 +20,8 @@
 }
 
 .rodape{
+    font-style: italic;
+    font-size: 1vw;
     height: 5vh;
     align-items: center;
 }
@@ -30,7 +33,7 @@
 }
 
 .conteudo_chamada{
-    height: 90vh;
+    height: 95vh;
     align-items: center;
     text-align: center;
 }
@@ -90,7 +93,9 @@ button{
     transition: transform 300ms, background-color 300ms;
 }
 button:hover{
+    color: aliceblue !important;
     transform: scale(1.05);
+    background-image: linear-gradient(to bottom right, #008e88,#009993,#0d426a);
 }
 button:active{
     transform: scale(0.90);
@@ -98,4 +103,8 @@ button:active{
 
 .logo{
     height: 6vh;
+}
+
+#txtSelect_Esp{
+    width: 20vw;
 }

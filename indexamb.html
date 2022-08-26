@@ -10,6 +10,7 @@
 
     <!--<script type="text/javascript" src="speech.js" defer></script>-->
     <title>Chamada de Paciente - Funcionario</title>
+    <link rel="icon" type="image/x-icon" href="img/chamada.ico">
 </head>
 <body id="fundo">
     
@@ -29,14 +30,28 @@
                 
                 <div class = "d-flex justify-content-center">
                     
-                    <form name="Form_Chamada" id="Form_Chamada" method="post" action="pacienteamb.php" target="pacienteamb.php">
+                    <form name="Form_Chamada" id="Form_Chamada" method="post" action="pacienteamb.php" target="Chamada">
                     <div class="titulo">Sistema de Chamada de Pacientes<br></div>
 
                     <div class="d-flex justify-content-center">Nome Paciente:<br></div>
                     <input id='txtInput' name="Nome_Paciente" placeholder="Insira o Nome do Paciente" size="80" required>
                     <br><br>
                     <div class="d-flex justify-content-center">Especialidade Médica:<br></div>
-                    <input id='txtInput_Esp' name="Especialidade" placeholder="Insira a Especialidade do Atendimento" size="40" required> 
+                    <div class="d-flex justify-content-center">
+                        <select id="txtSelect_Esp" name="Especialidade" class=" form-select form-select-sm">
+                            <option value="Cirurgia Pediátrica">Cirurgia Pediátrica</option>
+                            <option value="Cirurgia Vascular">Cirurgia Vascular</option>
+                            <option value="Cirurgia Geral">Cirurgia Geral</option>
+                            <option value="Neurocirurgia">Neurocirurgia</option>
+                            <option value="Pediatria">Pediatria</option>
+                            <option value="Endócrinopediatria">Endócrinopediatria</option>
+                            <option value="Clínica Médica">Clínica Médica</option>
+                            <option value="Estomaterapia">Estomaterapia</option>
+                            <option value="Gastroenterologista">Gastroenterologista</option>
+                            <option value="Cirurgia Toraxica">Cirurgia Toraxica</option>
+                            <option value="Pneumologista">Pneumologista</option>
+                        </select>
+                    </div>
 
                     <br><br><br>
 
@@ -54,6 +69,8 @@
                     <button id='btnSpeak' class="btn btn-warning" name="btn_chamada">Chamar Paciente</button>&nbsp
                     <button id='btnLimpar' class="btn btn-info" name="btn_limpar" onclick="document.getElementById('Form_Chamada').reset();">Limpar</button>
                     <br><br>
+                    <button id='btn2Janela' class="btn btn-success" name="btn_2Janela" onclick="window.open('pacienteamb.php','Chamada','_blank');">Abrir Janela de Chamada (TV)</button>&nbsp
+                    <br><br>
                     Ultimo Chamado: <div class="wrapper" id="ult_nome"></div>
                     </form>
                 </div>
@@ -66,7 +83,7 @@
     
         <script>
             var txtInput = document.querySelector('#txtInput');
-            var txtInput_Esp = document.querySelector('#txtInput_Esp');
+            var txtSelect_Esp = document.querySelector('#txtSelect_Esp');
             var consultorio;
             var voiceList = document.querySelector('#voiceList');
             var btnSpeak = document.querySelector('#btnSpeak');
@@ -107,13 +124,13 @@
                 }
                 
                 console.log('Nome do Paciente: ' + txtInput.value);
-                console.log('Especialidade do Atendimento: ' + txtInput_Esp);
+                console.log('Especialidade do Atendimento: ' + txtSelect_Esp);
                 console.log('Consultório Chamado: ' + consultorio);
 
-                if((txtInput.value != '') && (txtInput_Esp.value != '')){
+                if((txtInput.value != '') && (txtSelect_Esp.value != '')){
 
                 var toSpeak_paciente = new SpeechSynthesisUtterance(txtInput.value);
-                var toSpeak_especialidade = new SpeechSynthesisUtterance(txtInput_Esp.value);
+                var toSpeak_especialidade = new SpeechSynthesisUtterance(txtSelect_Esp.value);
                 var toSpeak_consultorio = new SpeechSynthesisUtterance(consultorio);
                 //var selectedVoiceName = voiceList.selectedOptions[0].getAttribute('data-name');
                 var selectedVoiceName = 'Microsoft Maria - Portuguese (Brazil)';

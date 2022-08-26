@@ -28,3 +28,759 @@ Paciente: ADRIANA MARIA PRADO TORRES
 Especialidade: Cardiologista
 Consultorio: Consultório 5
 
+[26-08-2022 11-18-59]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-19-42]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-20-22]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-20-30]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-20-30]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-22-49]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-23-19]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-24-55]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-26-20]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-27-11]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-27-19]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-27-24]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-27-37]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-27-47]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: sdsd
+Consultorio: Consultório 4
+
+[26-08-2022 11-34-19]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-34-26]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: sdsd
+Consultorio: Consultório 4
+
+[26-08-2022 11-34-28]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-34-28]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: sdsd
+Consultorio: Consultório 4
+
+[26-08-2022 11-34-29]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: sdsd
+Consultorio: Consultório 4
+
+[26-08-2022 11-34-32]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-34-52]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-34-54]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: teste
+Consultorio: Consultório 5
+
+[26-08-2022 11-35-33]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: cvbcvbcv
+Consultorio: Consultório 4
+
+[26-08-2022 11-36-05]
+IP: 10.2.5.5
+Paciente: PATRICIA NaRGUIS
+Especialidade: nmn,
+Consultorio: Consultório 4
+
+[26-08-2022 11-37-57]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-38-35]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-39-48]
+IP: 10.2.5.5
+Paciente: PATRICIA NaRGUIS
+Especialidade: bjkj
+Consultorio: Consultório 4
+
+[26-08-2022 11-40-12]
+IP: 10.2.5.5
+Paciente: PATRICIA NaRGUIS
+Especialidade: bjkj
+Consultorio: Consultório 4
+
+[26-08-2022 11-40-12]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-40-22]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: jghghkgh
+Consultorio: Consultório 1
+
+[26-08-2022 11-40-51]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-40-57]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: fgd
+Consultorio: Consultório 1
+
+[26-08-2022 11-44-28]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-44-31]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: jghjgh
+Consultorio: Consultório 1
+
+[26-08-2022 11-45-15]
+IP: 10.2.5.5
+Paciente: PATRICIA NaRGUIS
+Especialidade: hfghfgh
+Consultorio: Consultório 1
+
+[26-08-2022 11-45-56]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-45-56]
+IP: 10.2.5.5
+Paciente: PATRICIA NaRGUIS
+Especialidade: fghfghf
+Consultorio: Consultório 4
+
+[26-08-2022 11-46-24]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-46-35]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-46-35]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: jkçjk
+Consultorio: Consultório 4
+
+[26-08-2022 11-46-43]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: jkçjk
+Consultorio: Consultório 4
+
+[26-08-2022 11-46-43]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-46-52]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: jkçjk
+Consultorio: Consultório 4
+
+[26-08-2022 11-46-52]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-46-54]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-46-54]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: jkçjk
+Consultorio: Consultório 4
+
+[26-08-2022 11-47-00]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-47-23]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-47-37]
+IP: 10.2.5.5
+Paciente: PATRICIA NaRGUIS
+Especialidade: hkhjkhj
+Consultorio: Consultório 1
+
+[26-08-2022 11-47-37]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-47-51]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-47-51]
+IP: 10.2.5.5
+Paciente: fgj
+Especialidade: fgjfg
+Consultorio: Consultório 4
+
+[26-08-2022 11-48-12]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: gfhfg
+Consultorio: Consultório 1
+
+[26-08-2022 11-48-12]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-48-32]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: ghjghjgh
+Consultorio: Consultório 4
+
+[26-08-2022 11-48-49]
+IP: 10.2.5.5
+Paciente: diego
+Especialidade: jkljk
+Consultorio: Consultório 4
+
+[26-08-2022 11-48-53]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-48-53]
+IP: 10.2.5.5
+Paciente: diego
+Especialidade: jkljk
+Consultorio: Consultório 4
+
+[26-08-2022 11-49-01]
+IP: 10.2.5.5
+Paciente: PATRICIA NaRGUIS
+Especialidade: ghjgh
+Consultorio: Consultório 4
+
+[26-08-2022 11-50-52]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: hjkhjkl
+Consultorio: Consultório 1
+
+[26-08-2022 11-50-54]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: hjkhjkl
+Consultorio: Consultório 1
+
+[26-08-2022 11-51-33]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-51-36]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: teste
+Consultorio: Consultório 4
+
+[26-08-2022 11-51-39]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: teste
+Consultorio: Consultório 4
+
+[26-08-2022 11-52-36]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: teste
+Consultorio: Consultório 1
+
+[26-08-2022 11-52-41]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: teste
+Consultorio: Consultório 1
+
+[26-08-2022 11-53-48]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-53-55]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-53-59]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: teste
+Consultorio: Consultório 1
+
+[26-08-2022 11-54-04]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: teste
+Consultorio: Consultório 1
+
+[26-08-2022 11-56-12]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-56-17]
+IP: 10.2.5.5
+Paciente: PATRICIA NaRGUIS
+Especialidade: ghjghjgh
+Consultorio: Consultório 1
+
+[26-08-2022 11-56-23]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-56-23]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-58-45]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: teste
+Consultorio: Consultório 1
+
+[26-08-2022 11-58-48]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-58-52]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-58-56]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: teste
+Consultorio: Consultório 1
+
+[26-08-2022 11-59-02]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-59-04]
+IP: 10.2.5.5
+Paciente: PATRICIA NaRGUIS
+Especialidade: fghfghfg
+Consultorio: Consultório 1
+
+[26-08-2022 11-59-30]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 11-59-34]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: teste
+Consultorio: Consultório 1
+
+[26-08-2022 12-00-40]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-03-24]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-03-29]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-03-34]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: fghfghgf
+Consultorio: Consultório 1
+
+[26-08-2022 12-09-19]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: Cirurgia Pediátrica
+Consultorio: Consultório Pediátrico 2
+
+[26-08-2022 12-22-32]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: Endócrinopediatria
+Consultorio: Consultório 1
+
+[26-08-2022 12-22-42]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-22-52]
+IP: 10.2.5.5
+Paciente: NTI TESTE
+Especialidade: Gastroenterologista
+Consultorio: Consultório Pediátrico 2
+
+[26-08-2022 12-24-26]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-24-31]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-24-44]
+IP: 10.2.5.5
+Paciente: PATRICIA NaRGUIS
+Especialidade: Cirurgia Toraxica
+Consultorio: Consultório 5
+
+[26-08-2022 12-26-17]
+IP: 10.2.5.5
+Paciente: Jailson Narguis
+Especialidade: Cirurgia Pediátrica
+Consultorio: Consultório 1
+
+[26-08-2022 12-26-22]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-26-28]
+IP: 10.2.5.5
+Paciente: Jailson Narguis
+Especialidade: Cirurgia Pediátrica
+Consultorio: Consultório 1
+
+[26-08-2022 12-27-01]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-34-30]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-34-33]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-36-52]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-39-45]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-39-53]
+IP: 10.2.5.5
+Paciente: Jailson Antonio de Sousa pereira junior
+Especialidade: Endócrinopediatria
+Consultorio: Consultório 6
+
+[26-08-2022 12-40-04]
+IP: 10.2.5.5
+Paciente: Jailson Antonio de Sousa pereira junior
+Especialidade: Endócrinopediatria
+Consultorio: Consultório 6
+
+[26-08-2022 12-40-11]
+IP: 10.2.5.5
+Paciente: Jailson Antonio de Sousa pereira junior
+Especialidade: Endócrinopediatria
+Consultorio: Consultório 6
+
+[26-08-2022 12-40-13]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-40-22]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-40-25]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 12-52-23]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-03-28]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-03-45]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-04-01]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-04-15]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-04-44]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-04-53]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-05-32]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-06-07]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-06-12]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-06-18]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-06-39]
+IP: 10.2.5.5
+Paciente: PACIENTE
+Especialidade: Cirurgia Pediátrica
+Consultorio: Consultório Pediátrico 2
+
+[26-08-2022 13-20-01]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-20-34]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-20-35]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-21-32]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-21-48]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-24-34]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
+[26-08-2022 13-25-06]
+IP: 10.2.5.5
+Paciente: 
+Especialidade: 
+Consultorio: 
+
