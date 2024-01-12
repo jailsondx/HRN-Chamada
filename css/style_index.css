@@ -1,21 +1,27 @@
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
 
 #fundo{
     background-color: whitesmoke;
 }
 
-
-#fundo_chamada{
-    background-image: linear-gradient(to bottom right, #008e88,#009993,#0d426a);
-    width: 99vw;
-    height: 100vh;
-}
 .cabecalho{
-    background-image: linear-gradient(to right,#008e88, #009993,#0d426a);
+    /*background-image: linear-gradient(to right,#008e88, #009993,#0d426a);*/
+    background: linear-gradient(45deg, #0d426a, #009993,  #0d426a);
+    background-size: 300% 300%;
+    animation: gradientAnimation 10s linear infinite;
+
     height: 4vh;
-    align-items: center;
-}
-.cabecalho_chamada{
-    background-color: whitesmoke;
     align-items: center;
 }
 
@@ -32,24 +38,6 @@
     text-align: center;
 }
 
-.conteudo_chamada{
-    height: 95vh;
-    align-items: center;
-    text-align: center;
-}
-
-.chamada{
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    color: ;
-    -webkit-text-stroke-width: 1px; /* largura da borda */
-    -webkit-text-stroke-color: rgb(102, 102, 102); /* cor da borda */
-    height: 80vh;
-    align-items: center;
-    text-align: center;
-   
-}
-
 .titulo{
     margin-bottom: 30px;
     font-size: 3vw;
@@ -59,7 +47,7 @@
     content: "";
     position: absolute;
 
-    background-color: #00b460d3;
+    background-image: linear-gradient(to right,#008e88, #009993,#0d426a);
 
     bottom: 0;
     left: 0;
@@ -74,21 +62,6 @@
     transform: translateY(2px);
 }
 
-.paciente{
-    text-transform: uppercase;
-    font-size: 7vw;
-}
-
-.especialidade{
-    text-transform: uppercase;
-    font-size: 4vw;
-}
-
-.consultorio{
-    text-transform: uppercase;
-    font-size: 4vw;
-}
-
 button{
     transition: transform 300ms, background-color 300ms;
 }
@@ -99,6 +72,11 @@ button:hover{
 }
 button:active{
     transform: scale(0.90);
+}
+
+input[type="radio"] {
+    accent-color: #008e88;
+
 }
 
 .logo{

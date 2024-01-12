@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Atualização de Informações</title>
+</head>
+<body>
+  <div id="info"></div>
+
+  <script>
+    function updateInfo() {
+      // Faz uma requisição AJAX para obter informações de um arquivo externo
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "./chamada/infor.txt", true);
+
+      xhr.onload = function() {
+        if (xhr.status === 200) {
+          var infoData = xhr.responseText;
+          document.getElementById("info").textContent = infoData;
+        }
+      };
+
+      xhr.send();
+    }
+
+    // Atualiza as informações a cada 1 segundo
+    setInterval(updateInfo, 1000);
+  </script>
+</body>
+</html>
