@@ -133,6 +133,11 @@
                 var toSpeak_especialidade = new SpeechSynthesisUtterance(txtSelect_Esp.value);
                 var toSpeak_consultorio = new SpeechSynthesisUtterance(consultorio);
                 //var selectedVoiceName = voiceList.selectedOptions[0].getAttribute('data-name');
+                
+                //Configurações da voz de leitura (Velocidade = rate)
+                toSpeak_paciente.rate = 2;
+
+
                 var selectedVoiceName = 'Microsoft Maria - Portuguese (Brazil)';
                 voices.forEach((voice)=>{
                     if(voice.name === selectedVoiceName){
