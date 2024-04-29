@@ -1,0 +1,102 @@
+/*
+Use . para Div Class
+Use # para ID
+
+align-items: center; Alinhamento Vertical
+text-align: center; Alinhamento Horizontal
+*/
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+#fundo{
+    background-color: whitesmoke;
+}
+
+#fundo_chamada{
+    background-color: whitesmoke;
+    width: 99vw;
+    height: 100vh;
+}
+
+.cabecalho_chamada{
+    /*background-image: linear-gradient(to bottom right, #008e88,#009993,#0d426a);*/
+    background: linear-gradient(45deg, #0d426a, #009993,  #0d426a);
+    background-size: 300% 300%;
+    animation: gradientAnimation 10s linear infinite;
+
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    height: 10vh;
+}
+
+#rodape{
+    text-align: center;
+    font-style: italic;
+    height: 15vh;
+    font-size: 1vw;
+}
+
+#logo_rodape{
+    height: 10vh;
+}
+
+.chamada{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 0px; /* largura da borda */
+    -webkit-text-stroke-color: rgb(102, 102, 102); /* cor da borda */
+    height: 75vh;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.paciente{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: clamp(9vh, 10vh, 11vh);
+    line-height: 1;
+
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+/*
+.especialidade{
+    background-color: #0d426a;
+    height: 10vh;
+    color: #009993;
+    text-transform: uppercase;
+    font-size: 4vw;
+    margin-bottom: clamp(-9%, -10%, -11%);
+    
+}
+
+.consultorio{
+    background-color: coral;
+    height: 8vh;
+    color: #009993;
+    text-transform: uppercase;
+    font-size: 3vw;
+    
+}
+*/
+.sala{
+    color: #009993;
+    text-transform: uppercase;
+    font-size: 3vw;
+    line-height: 1;
+}

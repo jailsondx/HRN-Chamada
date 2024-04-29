@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link href="style.css" rel="stylesheet">
+    <link href="./css/style_index.css" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <meta charset="UTF-8">
@@ -30,7 +30,7 @@
                 
                 <div class = "d-flex justify-content-center">
                     
-                    <form name="Form_Chamada" id="Form_Chamada" method="post" action="pacienteamb.php" target="Chamada">
+                    <form name="Form_Chamada" id="Form_Chamada" method="post" action="./chamada/pacienteamb.php" target="Chamada">
                     <div class="titulo">Sistema de Chamada de Pacientes<br></div>
 
                     <div class="d-flex justify-content-center">Nome Paciente:<br></div>
@@ -69,7 +69,7 @@
                     <button id='btnSpeak' class="btn btn-warning" name="btn_chamada">Chamar Paciente</button>&nbsp
                     <button id='btnLimpar' class="btn btn-info" name="btn_limpar" onclick="document.getElementById('Form_Chamada').reset();">Limpar</button>
                     <br><br>
-                    <button id='btn2Janela' class="btn btn-success" name="btn_2Janela" onclick="window.open('pacienteamb.php','Chamada','_blank');">Abrir Janela de Chamada (TV)</button>&nbsp
+                    <button id='btn2Janela' class="btn btn-success" name="btn_2Janela" onclick="window.open('./chamada/pacienteamb.php','Chamada','_blank');">Abrir Janela de Chamada (TV)</button>&nbsp
                     <br><br>
                     Ultimo Chamado: <div class="wrapper" id="ult_nome"></div>
                     </form>
@@ -133,6 +133,11 @@
                 var toSpeak_especialidade = new SpeechSynthesisUtterance(txtSelect_Esp.value);
                 var toSpeak_consultorio = new SpeechSynthesisUtterance(consultorio);
                 //var selectedVoiceName = voiceList.selectedOptions[0].getAttribute('data-name');
+                
+                //Configurações da voz de leitura (Velocidade = rate)
+                toSpeak_paciente.rate = 2;
+
+
                 var selectedVoiceName = 'Microsoft Maria - Portuguese (Brazil)';
                 voices.forEach((voice)=>{
                     if(voice.name === selectedVoiceName){
